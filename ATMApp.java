@@ -28,13 +28,13 @@ public class ATMApp {
                     System.out.println("How much amount you want to deposit?");
                     int amount = scan.nextInt();
                     balance += amount;
-                    System.out.println("Your amount " + amount + " is added in your balance");
+                    System.out.println("Your amount " + amount + " is deposit in your account");
                     break;
                 case 3:
                     System.out.println("How much amount you want to withdraw?");
                     int wAmount = scan.nextInt();
                     balance -= wAmount;
-                    System.out.println("Thanks for withdraw");
+                    System.out.println("Your amount " + wAmount + " is withdraw from your account");
                     break;
                 case 4:
                     isContinue = false;
